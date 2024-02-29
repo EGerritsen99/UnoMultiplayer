@@ -9,7 +9,7 @@ public class Card {
     public Card(CardColor cardColor, CardType cardType) {
 
         setCardColor(cardColor);
-        setNumber(cardType);
+        setCardType(cardType);
 
     }
 
@@ -26,7 +26,7 @@ public class Card {
         return cardType;
     }
 
-    public void setNumber(CardType cardType) {
+    public void setCardType(CardType cardType) {
         this.cardType = cardType;
     }
 

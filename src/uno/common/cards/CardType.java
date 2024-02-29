@@ -14,8 +14,8 @@ public enum CardType {
 
     final String cardTypeStringValue;
 
-    CardType(String rankStringValue) {
-        this.cardTypeStringValue = rankStringValue;
+    CardType(String cardTypeStringValue) {
+        this.cardTypeStringValue = cardTypeStringValue;
     }
 
 

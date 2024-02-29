@@ -8,8 +8,8 @@ public enum CardColor {
 
     final String cardColorsStringValue;
 
-    CardColor(String coloursStringValue) {
-        this.cardColorsStringValue = coloursStringValue;
+    CardColor(String cardColorsStringValue) {
+        this.cardColorsStringValue = cardColorsStringValue;
     }
 
 }
