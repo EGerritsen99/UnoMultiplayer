@@ -22,6 +22,7 @@ public class Deck {
         }
 
         Collections.shuffle(unplayedCards);
+        topCard = drawCard();
 
     }
 
