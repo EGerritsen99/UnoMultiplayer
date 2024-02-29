@@ -25,22 +25,15 @@ public class Deck {
 
     }
 
-
     // Methods
-    public void printDeck() {
-
-        for (Card card : unplayedCards) {
-            System.out.println(card.getCardColor().cardColorsStringValue + card.getCardType().cardTypeStringValue);
-        }
-
-    }
-
     public Card drawCard() {
 
         Card cardDrawn = unplayedCards.getFirst();
         unplayedCards.removeFirst();
 
-        if (unplayedCards.)
+        if (unplayedCards.isEmpty()) {
+            shuffleDeck();
+        }
 
         return cardDrawn;
 
@@ -71,9 +64,6 @@ public class Deck {
         playedCards.clear();
 
     }
-
-
-
 
     //Getters and setters
     public Card getTopCard() {
